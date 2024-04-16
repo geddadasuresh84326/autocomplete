@@ -1,0 +1,72 @@
+{
+      "intents": [
+            {
+                  "intent": "replacement",
+                  "text": [
+                        "replacement","replace","repla","rep"
+                  ],
+                  "responses": [
+                        "Shock absorber and strut replacement,ball joint and control arm replacement,Battery replacement,fuse and relay replacement",
+                        "Shock absorber and strut replacement,ball joint and control arm replacement,Battery replacement,fuse and relay replacement",
+                        "Shock absorber and strut replacement,ball joint and control arm replacement,Battery replacement,fuse and relay replacement",
+                        "Shock absorber and strut replacement,ball joint and control arm replacement,Battery replacement,fuse and relay replacement"                          
+                  ]           
+            },
+            {
+                  "intent": "Shock absorber",
+                  "text": [
+                        "Shock absorber and strut replacement"
+                  ],
+                  "responses": [
+                        "Brake pad and rotor replacement, brake fluid flush, brake line inspection and repair, brake caliper service"
+                  ]           
+            },
+            {
+                  "intent": "ball joint and control arm",
+                  "text": [
+                        "ball joint and control arm replacement"
+                  ],
+                  "responses": [
+                        "Power steering pump replacements, steering gear adjustments, steering linkage replacements."
+                  ]           
+                  } ,       
+                  {
+                        "intent": "Battery replacement",
+                        "text": [
+                              "Battery replacement"
+                        ],
+                        "responses": [
+                              "Bulb replacements, wiring repairs, lens cleaning or replacements"
+                        ]           
+                  },       
+                  {
+                        "intent": "filter",
+                        "text": [
+                              "fil","filt","filter"
+                        ],
+                        "responses": [
+                              "oil and filter changes,transmission filter replacement,Fuel filter replacements",
+                              "oil and filter changes,transmission filter replacement,Fuel filter replacements",
+                              "oil and filter changes,transmission filter replacement,Fuel filter replacements"                         
+                        ]           
+                  },
+                  {
+                        "intent": "oil and filter changes",
+                        "text": [
+                              "oil and filter changes"
+                        ],
+                        "responses": [
+                              " Radiator repair or replacement,thermostat replacement,water pump replacement,coolant flush and refill"                
+                        ]           
+                  },
+                  {
+                        "intent": "Fuel filter replacements",
+                        "text": [
+                              "Fuel filter replacements"
+                        ],
+                        "responses": [
+                              " oil and filter changes, coolant system maintenance, belt and hose replacement, fuel system inspection and cleaning"                
+                        ]           
+                  }
+      ]
+}
